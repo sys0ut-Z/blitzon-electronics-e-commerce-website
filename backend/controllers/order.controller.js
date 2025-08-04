@@ -60,7 +60,6 @@ const placeOrderStripe = async (req, res) => {
     
     // console.log("4 usermodel");
     // * single item
-    // ✅ Correct
     const line_items = [
       {
         price_data: {
